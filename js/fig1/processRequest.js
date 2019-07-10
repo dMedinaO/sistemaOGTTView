@@ -79,6 +79,7 @@ $(document).ready(function() {
 					}
 				}).done( function( info ){
 					var response = JSON.parse(info);
+					console.log(response);
 
 					if (response.exec== "ERROR"){
 						$('#loading').hide();
